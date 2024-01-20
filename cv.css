@@ -9,7 +9,8 @@ body{
 }
 
 .main{
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     height:auto;
     padding: 20px;
     background:white;
@@ -208,5 +209,13 @@ body{
     margin-top: 10px!important;
 }
 .small{
-    width: 80%;
+    width:80%;
+}
+@media(max-width:720px) {
+    
+    .cont{font-size: 12px;}
+    .small{
+        width: 30% !important;;
+    }
+    
 }
